@@ -21,8 +21,9 @@ body{
     left: 0;
     overflow-x: hidden;
     padding-top: 16px;
+    
 }
-i{
+li>i{
     padding: 15px;
     margin-top:3px;
 }
@@ -54,3 +55,50 @@ ul > li:hover{
     cursor: pointer;
 }
 /*HEADER*/
+/*
+header{
+    margin-left:22%;
+}
+*/
+.search-bar{
+    width: 90%;
+    height:3.5vh;
+    border-radius: 15px;
+    border:none;
+    background-color: #e2e8f0;
+}
+.header-top{
+    display:flex;
+    margin-left:22%;
+    padding-top:2em;
+    padding-left:2em;
+    
+}
+.profile-box > img{
+    width:15%;
+    border-radius: 50%;
+    padding-left:15px;
+    padding-right: 15px;
+}
+.top-right{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin:0px;
+}
+.header-top  i{
+    padding:10px;
+    font-size: 1vw;
+}
+.search-box{
+    width:60%;
+    margin-top:12px;
+}
+.profile-box{
+    display:flex;
+    align-items:center;
+    justify-content: flex-end;
+    margin:auto;
+    margin-top:0px;
+    padding-top:0px;
+}
