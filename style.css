@@ -55,11 +55,11 @@ ul > li:hover{
     cursor: pointer;
 }
 /*HEADER*/
-/*
+
 header{
-    margin-left:22%;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
 }
-*/
+
 .search-bar{
     width: 90%;
     height:3.5vh;
@@ -96,6 +96,7 @@ header{
     margin:auto;
     margin-top:0px;
     padding-top:0px;
+    margin-right: 12%;
     font-weight: bold;
 }
 
@@ -104,6 +105,7 @@ header{
     margin-left:22%;
     padding-top:1em;
     padding-left:2em;
+    padding-bottom:1%;
 }
 .hi-there{
     display:flex;
@@ -133,21 +135,35 @@ header{
 }
 .top-buttons-container{
     display:flex;
-    width:40%;
+    width:50%;
     align-items:right;
     justify-content: flex-end;
     margin:auto;
-    margin-top:45px;
+    margin-right:10%;
+    margin-top:35px;
     padding-top:0px;
     font-weight: bold;
 }
-.top-buttons-container > button{
-    padding: 6px;
+.top-buttons-container > button    {
+    padding: 10px;
     background-color: #1992d4;
     border-radius: 25px;
     border:none;
-    width:20%;
+    width:14%;
     color:white;
-    margin: 10px;
-    font-size:1vw
+    margin: 12px;
+    font-size:1vw;
+    font-weight:630;
+}
+.top-buttons-container > button:hover{
+    background-color: #1992d4da;
+    transform: scale(1.1,1.1);
+    transition: 0.3s all;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+}
+.top-buttons-container > button:active{
+    background-color: #1992d4;
+    transform: scale(1,1);
+    transition: 0.1s all;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
 }
