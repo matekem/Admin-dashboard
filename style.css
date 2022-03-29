@@ -29,8 +29,8 @@ li>i{
 }
 ul{
     display:grid;
-    grid-template-columns: 10% 50%;
-    grid-template-rows: auto;
+    grid-template-columns: 12% 50%;
+    grid-template-rows: 50%;
     font-size:1.2rem;
     font-weight:bold;
 }
@@ -67,10 +67,10 @@ header{
     border:none;
     background-color: #e2e8f0;
 }
-.header-top{
+.header-top {
     display:flex;
     margin-left:22%;
-    padding-top:2em;
+    padding-top:1em;
     padding-left:2em;
     
 }
@@ -80,12 +80,7 @@ header{
     padding-left:15px;
     padding-right: 15px;
 }
-.top-right{
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-    margin:0px;
-}
+
 .header-top  i{
     padding:10px;
     font-size: 1vw;
@@ -101,4 +96,58 @@ header{
     margin:auto;
     margin-top:0px;
     padding-top:0px;
+    font-weight: bold;
+}
+
+.header-bottom{
+    display:flex;
+    margin-left:22%;
+    padding-top:1em;
+    padding-left:2em;
+}
+.hi-there{
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-weight: 630;
+}
+.hi-there > img{
+    width:17%;
+    border-radius: 50%;
+    margin-right: 5%;
+}
+.hi-there-top{
+    text-align: left;
+    font-size:1vw;
+    padding:0px;
+    margin:0px;
+}
+.hi-there-bottom{
+    text-align: left;
+    font-size: 1.4vw;
+    margin:0px;
+    padding:0px;
+}
+.hi-text-container{
+    display:block;
+}
+.top-buttons-container{
+    display:flex;
+    width:40%;
+    align-items:right;
+    justify-content: flex-end;
+    margin:auto;
+    margin-top:45px;
+    padding-top:0px;
+    font-weight: bold;
+}
+.top-buttons-container > button{
+    padding: 6px;
+    background-color: #1992d4;
+    border-radius: 25px;
+    border:none;
+    width:20%;
+    color:white;
+    margin: 10px;
+    font-size:1vw
 }
