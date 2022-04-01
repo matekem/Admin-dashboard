@@ -84,9 +84,15 @@ ul{
 .dashin-p{
     margin-left: 35px;
 }
-ul > li:hover{
+ul > li>p:hover{
+    
+    transform: scale(1.1,1.1);
+    color: #e2e8f0;
     text-decoration: underline;
-    cursor: pointer;
+    cursor:pointer;
+}
+ul > li>p{
+    transition:0.2s all;
 }
 /*HEADER*/
 
@@ -181,18 +187,19 @@ header{
 }
 .top-buttons-container > button    {
     padding: 10px;
-    background-color: #1992d4;
+    background-color: white;
+    border : 1px solid #1992d4;
     border-radius: 25px;
-    border:none;
     width:14%;
-    color:white;
+    color:#1992d4;
     margin: 12px;
     font-size:1vw;
     font-weight:630;
     transition: 0.3s all;
 }
 .top-buttons-container > button:hover{
-    background-color: #1992d4da;
+    background-color: #1992d4;
+    color: white;
     transform: scale(1.1,1.1);
     
     box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
@@ -264,7 +271,7 @@ main{
 }
 .project > p{
    
-    font-size: 120%;
+    font-size: 110%;
 }
 .project > h1{
     font-size: 140%;
