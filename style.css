@@ -67,10 +67,11 @@ ul{
     grid-template-rows: 50%;
     font-size:1.2rem;
     font-weight:bold;
+    height:25vh;
 }
 .dashboard{
     font-size:200%;
-
+    height:20px
 }
 #dash-icon{
     margin-top:25px;
